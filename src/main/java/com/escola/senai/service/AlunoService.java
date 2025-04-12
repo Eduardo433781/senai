@@ -41,7 +41,7 @@ public class AlunoService {
                 })
                 .orElseThrow(() -> new RuntimeException("Aluno não encontrado com o ID: " + id));
     }
-    
+
     //-----------------------------------------------------------------------------------------------------------------------------------------------------------
     //Deletar Aluno
     public void deletarAluno(Long id) {
